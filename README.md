@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project evaluates the criticality of road segments in the Christchurch urban road network by simulating road closures and measuring their impact on network performance.
+This project evaluates the criticality of road segments in the state highway network in South Island by simulating road closures and measuring their impact on network performance.
 
 Using publicly available OpenStreetMap data, the project demonstrates how graph-based modelling can support infrastructure resilience and evidence-based decision-making.
 

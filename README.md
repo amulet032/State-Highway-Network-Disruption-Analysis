@@ -56,9 +56,6 @@ These metrics approximate network efficiency loss and accessibility degradation.
 
 <img width="1221" height="1003" alt="Flow_lcv_chch" src="https://github.com/user-attachments/assets/cf2b16ce-7d61-4c6b-a2ef-6a19e852903d" />
 
-### Most Critical Road Segments (Top 10)
-<img width="2370" height="1468" alt="map_critical_edges" src="https://github.com/user-attachments/assets/0af29530-ead6-48b5-b00a-572f88fc2410" />
-
 ---
 
 ### Spatial Distribution of Critical Segments

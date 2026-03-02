@@ -26,12 +26,12 @@ The project simulates individual edge removals and measures resulting impacts on
 
 ## Methodology
 
-1. Download Christchurch road network using OSMnx.
+1. Download South Island road network using OSMnx.
 2. Construct a directed graph with edge lengths.
 3. Randomly sample OD node pairs.
 4. Compute baseline shortest path distances.
 5. Remove one road segment at a time.
-6. Recalculate shortest paths by travel time.
+6. Recalculate shortest paths by distance.
 7. Rank road segments by impact severity.
 
 ---
@@ -44,7 +44,7 @@ Average additional travel distance caused by a road closure.
 
 ### Fraction Unreachable
 
-Proportion of OD pairs that become disconnected after removal.
+Proportion of OD pairs that become disconnected after road segment removal.
 
 These metrics approximate network efficiency loss and accessibility degradation.
 
@@ -92,7 +92,7 @@ This simplified open-data implementation mirrors the conceptual approach used in
 ## Limitations
 
 - Random OD sampling (not demand-weighted)  
-- Distance-based metric (travel time not included)  
+- Distance-based metric (travel time not included since lack real travel speed)  
 - Single-edge disruption only  
 - No traffic flow or capacity modelling  
 
